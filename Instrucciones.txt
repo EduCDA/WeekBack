@@ -1,0 +1,7 @@
+Estamos en la carpeta node donde se en cuenta en backend de nuestra web.
+Están ordenadas por orden de actuación y preferencia a la hora de editar o añadir.
+La estructura de carpetas es database:se encuentra el archivo db.js donde se encuentra la conexión a mi base de datos.
+weekfood,model:se encuentran los modelos de las tablas de la base de datos, aquí definimos las columnas de cada tabla.
+controller: se encuentran las acciones de cada tabla, aquí indicamos las funciones que queremos que se realicen en nuestras tablas.
+routes: es la carpeta donde nuestros archivos gestionan las funciones de los controladores y le asignan una ruta y un método.
+app: se encuentra el corazón de nuestra aplicación donde converge todo, es donde definimos nuestras rutas y nos devuelve el JSON.
